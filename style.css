@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+
+div {
+    background-color: #7BAFD4;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+nav {
+    background-color: #7BAFD4;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+}
+
+
+.items:hover {
+    background-color: #13294B;
+    opacity: 0.5;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+p,
+li {
+    text-align: center;
+}
+
+#schoolImage {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#caption {
+    color: black;
+}
+
+#pinpoint {
+    margin-top: 14px;
+    width: 2%;
+}
+
+#name {
+    font-size: 200px;
+}
+
